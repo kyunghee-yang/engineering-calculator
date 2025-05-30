@@ -1,0 +1,27 @@
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  background-color: var(--toggle-bg);
+  color: var(--toggle-color);
+}
+
+.theme-toggle:hover {
+  background-color: var(--toggle-hover-bg);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--focus-color);
+  outline-offset: 2px;
+}
